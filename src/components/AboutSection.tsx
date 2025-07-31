@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, MapPin, Heart, Zap } from "lucide-react";
+import sebastianInjuryRecovery from "/lovable-uploads/3c26a530-85d9-48b4-945e-b8238c4aebeb.png";
 
 const AboutSection = () => {
   return (
@@ -76,38 +77,59 @@ const AboutSection = () => {
             </Card>
           </div>
 
-          <Card className="shadow-elegant">
-            <CardContent className="p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <Heart className="h-6 w-6 text-accent" />
-                <h3 className="text-2xl font-semibold">Personal Story</h3>
-              </div>
-              <div className="prose prose-lg max-w-none text-foreground">
-                <p className="mb-4">
-                  Originally from New Zealand and now living in Melbourne, I began my tennis journey 
-                  at 12 years old—later than many of my peers. However, what I may have lacked in 
-                  early experience, I've made up for with dedicated hard work and rapid improvement.
-                </p>
-                <p className="mb-4">
-                  My current UTR of 9.15 reflects not just my current ability, but my resilience. 
-                  After being sidelined for eight weeks with an ankle injury, I've returned stronger 
-                  than ever, consistently defeating players with higher UTRs and proving that 
-                  setbacks only fuel my determination.
-                </p>
-                <p className="mb-4">
-                  As a dual citizen of New Zealand and Australia, I bring a unique perspective to 
-                  the court. I'm not part of a national program, which means my training is 
-                  self-driven with support from my coaches Emily Arnott and strength & conditioning 
-                  coach Giovanni Rollo, along with my family.
-                </p>
-                <p>
-                  The Kooyong Foundation Scholarship represents more than just an opportunity—it's 
-                  a chance to grow in a high-performance environment surrounded by excellence, 
-                  history, and the values that define Australian tennis.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="shadow-elegant">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <Heart className="h-6 w-6 text-accent" />
+                  <h3 className="text-2xl font-semibold">Personal Story</h3>
+                </div>
+                <div className="prose prose-lg max-w-none text-foreground">
+                  <p className="mb-4">
+                    Originally from New Zealand and now living in Melbourne, I began my tennis journey 
+                    at 12 years old—later than many of my peers. However, what I may have lacked in 
+                    early experience, I've made up for with dedicated hard work and rapid improvement.
+                  </p>
+                  <p className="mb-4">
+                    My current UTR of 9.15 reflects not just my current ability, but my resilience. 
+                    After being sidelined for eight weeks with an ankle injury, I've returned stronger 
+                    than ever, consistently defeating players with higher UTRs and proving that 
+                    setbacks only fuel my determination.
+                  </p>
+                  <p className="mb-4">
+                    As a dual citizen of New Zealand and Australia, I bring a unique perspective to 
+                    the court. I'm not part of a national program, which means my training is 
+                    self-driven with support from my coaches Emily Arnott and strength & conditioning 
+                    coach Giovanni Rollo, along with my family.
+                  </p>
+                  <p>
+                    The Kooyong Foundation Scholarship represents more than just an opportunity—it's 
+                    a chance to grow in a high-performance environment surrounded by excellence, 
+                    history, and the values that define Australian tennis.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-elegant overflow-hidden">
+              <CardContent className="p-0">
+                <div 
+                  className="h-64 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${sebastianInjuryRecovery})` }}
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                    <Heart className="h-5 w-5 text-accent" />
+                    Resilience & Recovery
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Overcoming an 8-week ankle injury taught me that true strength isn't just physical—it's 
+                    mental resilience, patience, and the determination to come back stronger than before.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Users, Award, Heart, Zap, Quote } from "lucide-react";
-import tennisEquipment from "@/assets/tennis-equipment.jpg";
+import nightTennisCourt from "/lovable-uploads/4426c6b0-f452-498c-baed-33af6a6abf17.png";
 
 const JourneySection = () => {
   return (
@@ -60,7 +60,7 @@ const JourneySection = () => {
               <CardContent className="p-0">
                 <div 
                   className="h-48 bg-cover bg-center rounded-t-lg"
-                  style={{ backgroundImage: `url(${tennisEquipment})` }}
+                  style={{ backgroundImage: `url(${nightTennisCourt})` }}
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Trophy, Award, Target, ArrowDown } from "lucide-react";
-import heroImage from "@/assets/hero-tennis.jpg";
+import sebastianTennisAction from "/lovable-uploads/60f27200-9553-4d90-bb6d-00f48b76141e.png";
 
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(${sebastianTennisAction})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/50" />
       </div>
