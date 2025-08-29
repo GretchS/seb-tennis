@@ -36,16 +36,22 @@ const Header = () => {
             Journey
           </button>
           <button
-            onClick={() => scrollToSection('gallery')}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Gallery
-          </button>
-          <button
             onClick={() => scrollToSection('goals')}
             className="text-sm font-medium hover:text-primary transition-colors"
           >
             Goals
+          </button>
+          <button
+            onClick={() => scrollToSection('sponsorship')}
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            Sponsorship
+          </button>
+          <button
+            onClick={() => scrollToSection('gallery')}
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            Gallery
           </button>
           <Button
             variant="hero"

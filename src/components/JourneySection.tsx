@@ -17,8 +17,9 @@ const JourneySection = () => {
               Building Excellence Through Dedication
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              From starting tennis at 12 to pursuing the Kooyong Foundation Scholarship, 
-              my journey reflects resilience, growth, and unwavering commitment to excellence.
+              The path to tennis excellence requires more than individual effort. My journey has been shaped by 
+              incredible mentors, dedicated training, and the support of those who believe in my potential. 
+              I'm looking for sponsors who want to be part of this exciting journey toward professional tennis.
             </p>
           </div>
 
@@ -125,25 +126,25 @@ const JourneySection = () => {
             </Card>
           </div>
 
-          {/* Kooyong Scholarship Statement */}
+          {/* Partnership Statement */}
           <Card className="mt-12 shadow-court bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
             <CardHeader>
               <CardTitle className="text-center text-2xl flex items-center justify-center gap-3">
                 <Award className="h-8 w-8 text-accent" />
-                Why Kooyong Foundation Scholarship?
+                Why Partner With Me?
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                "This scholarship would be a huge opportunity. I'm dedicated, coachable, and really keen 
-                to keep developing my game. I'd be proud to represent Kooyong and contribute to the team 
-                however I can. I really admire Kooyong's history and values, and I think it would be a 
-                place I could make great improvements."
+                "I offer sponsors authentic representation, dedicated professionalism, and the exciting 
+                opportunity to support an emerging talent with genuine potential. Your investment isn't 
+                just in my tennis career—it's in the values of hard work, resilience, and excellence 
+                that I bring to everything I do both on and off the court."
               </p>
               <div className="flex justify-center">
                 <Button variant="champion" size="lg">
                   <Award className="mr-2 h-5 w-5" />
-                  View Full Application
+                  Partnership Opportunities
                 </Button>
               </div>
             </CardContent>

@@ -3,9 +3,10 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import AchievementsSection from "@/components/AchievementsSection";
 import JourneySection from "@/components/JourneySection";
-import GallerySection from "@/components/GallerySection";
 import GoalsSection from "@/components/GoalsSection";
-import ContactSection from "@/components/ContactSection";
+import SponsorshipSection from "@/components/SponsorshipSection";
+import GallerySection from "@/components/GallerySection";
+import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,9 +17,10 @@ const Index = () => {
       <AboutSection />
       <AchievementsSection />
       <JourneySection />
-      <GallerySection />
       <GoalsSection />
-      <ContactSection />
+      <SponsorshipSection />
+      <GallerySection />
+      <ContactForm />
       <Footer />
     </div>
   );

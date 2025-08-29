@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto animate-slide-up">
           <Badge className="mb-6 bg-primary/10 text-primary border-primary/20 animate-bounce-in">
-            Kooyong Foundation Tennis Scholarship Candidate
+            Rising Tennis Talent
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent leading-tight">
@@ -33,8 +33,8 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Dedicated tennis athlete from New Zealand & Australia, pursuing excellence 
-            through the prestigious Kooyong Foundation Scholarship
+            Dedicated tennis athlete from New Zealand & Australia, seeking sponsorship 
+            opportunities to elevate my competitive tennis journey
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -64,9 +64,9 @@ const HeroSection = () => {
             <Button
               variant="court"
               size="lg"
-              onClick={() => scrollToSection('achievements')}
+              onClick={() => scrollToSection('contact')}
             >
-              View Achievements
+              Sponsorship Opportunities
             </Button>
           </div>
         </div>

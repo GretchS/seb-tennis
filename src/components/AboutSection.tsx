@@ -103,9 +103,9 @@ const AboutSection = () => {
                     coach Giovanni Rollo, along with my family.
                   </p>
                   <p>
-                    The Kooyong Foundation Scholarship represents more than just an opportunity—it's 
-                    a chance to grow in a high-performance environment surrounded by excellence, 
-                    history, and the values that define Australian tennis.
+                    I'm seeking passionate sponsors who believe in supporting emerging talent 
+                    and want to be part of my journey toward professional tennis excellence. 
+                    Your partnership helps fuel my dedication to achieving greatness in tennis.
                   </p>
                 </div>
               </CardContent>
