@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Trophy, Award, Target, ArrowDown } from "lucide-react";
+import { useUTR } from "@/hooks/useUTR";
 import sebastianTennisAction from "/lovable-uploads/60f27200-9553-4d90-bb6d-00f48b76141e.png";
 
 const HeroSection = () => {
+  const utrData = useUTR();
+  
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -40,7 +43,8 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <div className="flex items-center gap-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-border/50">
               <Trophy className="h-5 w-5 text-accent" />
-              <span className="font-semibold">UTR 9.15</span>
+              <span className="font-semibold">UTR {utrData.rating}</span>
+              <span className="text-xs text-muted-foreground">({utrData.lastUpdated})</span>
             </div>
             <div className="flex items-center gap-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-border/50">
               <Award className="h-5 w-5 text-primary" />

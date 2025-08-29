@@ -5,6 +5,7 @@ import AchievementsSection from "@/components/AchievementsSection";
 import JourneySection from "@/components/JourneySection";
 import GoalsSection from "@/components/GoalsSection";
 import SponsorshipSection from "@/components/SponsorshipSection";
+import UTRSection from "@/components/UTRSection";
 import GallerySection from "@/components/GallerySection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ const Index = () => {
       <AchievementsSection />
       <JourneySection />
       <GoalsSection />
+      <UTRSection />
       <SponsorshipSection />
       <GallerySection />
       <ContactForm />
