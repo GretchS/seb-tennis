@@ -140,14 +140,27 @@ const GoalsSection = () => {
                 Every challenge is an opportunity to grow, every setback a setup for a comeback."
               </blockquote>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://instagram.com/gretch_scott"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                > 
                 <Button variant="hero" size="lg">
                   <Trophy className="mr-2 h-5 w-5" />
                   Follow My Journey
                 </Button>
+                </a>
+                <a
+                  href="gretchenscott0@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                > 
+                </a>
                 <Button variant="court" size="lg">
                   <Target className="mr-2 h-5 w-5" />
                   Connect With Me
                 </Button>
+                
               </div>
             </CardContent>
           </Card>

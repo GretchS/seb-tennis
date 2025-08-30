@@ -41,12 +41,7 @@ const Header = () => {
           >
             Goals
           </button>
-          <button
-            onClick={() => scrollToSection('utr')}
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            UTR Rating
-          </button>
+         
           <button
             onClick={() => scrollToSection('sponsorship')}
             className="text-sm font-medium hover:text-primary transition-colors"

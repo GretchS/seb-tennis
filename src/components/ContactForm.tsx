@@ -177,7 +177,7 @@ const ContactForm = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <Mail className="h-6 w-6 text-primary" />
-                  Direct Contact
+                  Why Partner With Me?
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -199,7 +199,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="pt-4 border-t">
-                  <h4 className="font-semibold mb-3">Why Partner With Me?</h4>
+                
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2"></div>

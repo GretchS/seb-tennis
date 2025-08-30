@@ -70,7 +70,7 @@ const SponsorshipSection = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <Star className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Monthly progress reports</span>
+                    <span className="text-sm">Quarterly progress reports</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Zap className="h-4 w-4 text-primary" />
@@ -101,7 +101,7 @@ const SponsorshipSection = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <Star className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Weekly communication</span>
+                    <span className="text-sm">Monthly communication</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Zap className="h-4 w-4 text-primary" />
@@ -131,7 +131,7 @@ const SponsorshipSection = () => {
                   <div className="text-sm text-muted-foreground">Tournament Matches/Year</div>
                 </div>
                 <div className="p-4 bg-card/50 rounded-lg">
-                  <div className="text-2xl font-bold text-accent">1000+</div>
+                  <div className="text-2xl font-bold text-accent">300+</div>
                   <div className="text-sm text-muted-foreground">Social Media Reach</div>
                 </div>
                 <div className="p-4 bg-card/50 rounded-lg">

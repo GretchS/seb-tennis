@@ -82,7 +82,7 @@ const GallerySection = () => {
                 <h3 className="text-xl font-bold mb-4">Competitive Excellence</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Every photo captures a moment of growth, determination, and the pursuit of excellence 
-                  that drives Sebastian's tennis journey toward the Kooyong Foundation Scholarship.
+                  that drives Sebastian's tennis journey.
                 </p>
               </CardContent>
             </Card>
