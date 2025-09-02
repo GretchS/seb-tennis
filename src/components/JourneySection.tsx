@@ -72,7 +72,7 @@ const JourneySection = () => {
                     <div>
                       <div className="font-semibold text-primary">Essendon Tennis Club</div>
                       <div className="text-sm text-muted-foreground">
-                        Men's Pennant Grade 3 Section 1 - Seed 1 Player
+                        Men's Pennant Grade 3 Section 1 - Seed 2 Player
                       </div>
                     </div>
                     <div>

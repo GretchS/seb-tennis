@@ -94,7 +94,7 @@ const AboutSection = () => {
                     early experience, I've made up for with dedicated hard work and rapid improvement.
                   </p>
                   <p className="mb-4">
-                    My current UTR of 9.15 reflects not just my current ability, but my resilience. 
+                    My current UTR of 9.21 reflects not just my current ability, but my resilience. 
                     After being sidelined for eight weeks with an ankle injury, I've returned stronger 
                     than ever, consistently defeating players with higher UTRs and proving that 
                     setbacks only fuel my determination.

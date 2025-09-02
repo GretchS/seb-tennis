@@ -67,7 +67,7 @@ const AchievementsSection = () => {
             <Card className="text-center shadow-elegant hover:shadow-trophy transition-all duration-300">
               <CardContent className="p-6">
                 <Trophy className="h-8 w-8 text-accent mx-auto mb-3" />
-                <div className="text-2xl font-bold text-accent">9.15</div>
+                <div className="text-2xl font-bold text-accent">9.21</div>
                 <div className="text-sm text-muted-foreground">Current UTR</div>
               </CardContent>
             </Card>
