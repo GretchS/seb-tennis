@@ -5,6 +5,12 @@ import { Trophy, Calendar, Target, TrendingUp } from "lucide-react";
 const AchievementsSection = () => {
   const achievements2025 = [
     {
+      tournament: "2025 Victoria Men's Pennant - Grade 3 Section 1 ",
+      result: "4th place",
+      date: "August 23, 2025",
+      highlights: ["Defeated Mohammad Benmin (UTR 9.19) 6-1, 6-1"]   
+     },
+    {
       tournament: "Lakeview TC Reservoir - May Singles Classic",
       result: "Runner-Up (Platinum Draw)",
       date: "May 18, 2025",
