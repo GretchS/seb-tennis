@@ -46,7 +46,7 @@ const Header = () => {
             onClick={() => scrollToSection('sponsorship')}
             className="text-sm font-medium hover:text-primary transition-colors"
           >
-            Sponsorship
+            Partner Opportunities
           </button>
           <button
             onClick={() => scrollToSection('gallery')}
