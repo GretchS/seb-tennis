@@ -51,7 +51,7 @@ const ContactForm = () => {
       }
     } catch (error) {
       // Fallback: open email client with pre-filled content
-      const subject = encodeURIComponent(`Sponsorship Inquiry from ${formData.name}`);
+      const subject = encodeURIComponent(`Partnership Inquiry from ${formData.name}`);
       const body = encodeURIComponent(
         `Name: ${formData.name}\n` +
         `Email: ${formData.email}\n` +
@@ -82,7 +82,7 @@ const ContactForm = () => {
               Contact Sebastian
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Interested in sponsorship opportunities or want to learn more about my tennis journey? 
+              Interested in partnership opportunities or want to learn more about my tennis journey? 
               I'd love to hear from you.
             </p>
           </div>
@@ -203,7 +203,7 @@ const ContactForm = () => {
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2"></div>
-                      <span>Dedicated athlete with proven results (UTR 9.15)</span>
+                      <span>Dedicated athlete with proven results (UTR 9.21)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2"></div>
