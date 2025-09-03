@@ -1,11 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, MapPin, Heart, Zap } from "lucide-react";
-import { useUTR } from "@/hooks/useUTR";
+
 import sebastianInjuryRecovery from "/lovable-uploads/3c26a530-85d9-48b4-945e-b8238c4aebeb.png";
 
 const AboutSection = () => {
-  const utrData = useUTR();
   
   return (
     <section id="about" className="py-20 bg-muted/30">
@@ -34,7 +33,7 @@ const AboutSection = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Current UTR:</span>
-                    <span className="font-semibold text-primary">{utrData.rating}</span>
+                    <span className="font-semibold text-primary">9.21</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Current WTN:</span>
