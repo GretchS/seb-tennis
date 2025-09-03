@@ -53,7 +53,7 @@ const SponsorshipSection = () => {
                 </div>
                 <CardTitle className="text-2xl">Equipment Grant Supporter </CardTitle>
                 <div className="text-3xl font-bold text-primary">$1,500 - $5,000</div>
-                <Badge className="mt-2 bg-primary/10 text-primary">Alwyas needing shoes & rackets </Badge>
+                <Badge className="mt-2 bg-primary/10 text-primary">Always needing shoes & rackets </Badge>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
