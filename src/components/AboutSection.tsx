@@ -99,7 +99,7 @@ const AboutSection = () => {
                     As a dual citizen of New Zealand and Australia, I bring a unique perspective to 
                     the court. I'm not part of a national program, which means my training is 
                     self-driven with support from my coaches Emily Arnott and strength & conditioning 
-                    coach Giovanni Rollo, along with my family.
+                    coach <a href="https://rawtheory.com.au/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Giovanni Rollo</a>, along with my family.
                   </p>
                   <p>
                     I'm seeking passionate sponsors who believe in supporting emerging talent 

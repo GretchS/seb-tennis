@@ -43,7 +43,11 @@ const JourneySection = () => {
                 <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
                   <Zap className="h-5 w-5 text-primary" />
                   <div>
-                    <div className="font-semibold">Giovanni Rollo</div>
+                    <div className="font-semibold">
+                      <a href="https://rawtheory.com.au/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">
+                        Giovanni Rollo
+                      </a>
+                    </div>
                     <div className="text-sm text-muted-foreground">Strength & Conditioning Coach</div>
                   </div>
                 </div>
@@ -103,7 +107,11 @@ const JourneySection = () => {
                   He approaches training with the same intensity and presence I've seen in serious martial artists: 
                   calm under pressure, receptive to feedback, and committed to getting better."
                 </blockquote>
-                <div className="font-semibold text-primary">— Giovanni Rollo</div>
+                <div className="font-semibold text-primary">
+                  — <a href="https://rawtheory.com.au/" target="_blank" rel="noopener noreferrer" className="hover:text-primary/80 underline">
+                    Giovanni Rollo
+                  </a>
+                </div>
                 <div className="text-sm text-muted-foreground">Strength & Conditioning Coach</div>
               </CardContent>
             </Card>
