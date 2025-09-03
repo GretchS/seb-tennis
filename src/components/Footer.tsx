@@ -10,7 +10,7 @@ const Footer = () => {
             <span className="text-2xl font-bold">Sebastian Scott</span>
           </div>
           <p className="text-primary-foreground/80 mb-6 max-w-md mx-auto">
-            Dedicated tennis athlete pursuing excellence through the Kooyong Foundation Scholarship
+            Dedicated tennis athlete pursuing excellence
           </p>
           <div className="flex items-center justify-center gap-2 text-primary-foreground/60">
             <span>Made with</span>
