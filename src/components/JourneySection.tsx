@@ -51,7 +51,7 @@ const JourneySection = () => {
                   <Heart className="h-5 w-5 text-success" />
                   <div>
                     <div className="font-semibold">Family Support</div>
-                    <div className="text-sm text-muted-foreground">Unwavering encouragement & guidance</div>
+                    <div className="text-sm text-muted-foreground">Unwavering encouragement & guidance, which includes a lot of driving and cooking</div>
                   </div>
                 </div>
               </CardContent>

@@ -12,10 +12,10 @@ const SponsorshipSection = () => {
               Partnership Opportunities
             </Badge>
             <h2 className="text-4xl font-bold mb-6 bg-gradient-court bg-clip-text text-transparent">
-              Sponsorship Packages
+              Grant Packages
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Join my tennis journey as a sponsor and be part of supporting emerging Australian talent. 
+              Join my tennis journey as a grant provider and be part of supporting emerging Australian talent. 
               Together, we can achieve greatness while building meaningful partnerships.
             </p>
           </div>
@@ -27,23 +27,20 @@ const SponsorshipSection = () => {
                 <div className="mx-auto mb-4 p-3 bg-amber-100 dark:bg-amber-900/30 rounded-full w-fit">
                   <Heart className="h-8 w-8 text-amber-600" />
                 </div>
-                <CardTitle className="text-2xl">Bronze Supporter</CardTitle>
+                <CardTitle className="text-2xl">Tournament Grant Supporter</CardTitle>
                 <div className="text-3xl font-bold text-muted-foreground">$500 - $1,500</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Target className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Logo on training gear</span>
+                    <span className="text-sm">Support my next tournament that requires travel</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Users className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Social media mentions</span>
+                    <span className="text-sm">Follow my Social media updates</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Star className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Quarterly updates</span>
-                  </div>
+                
                 </div>
               </CardContent>
             </Card>
@@ -54,27 +51,20 @@ const SponsorshipSection = () => {
                 <div className="mx-auto mb-4 p-3 bg-gray-100 dark:bg-gray-700 rounded-full w-fit">
                   <Trophy className="h-8 w-8 text-gray-600" />
                 </div>
-                <CardTitle className="text-2xl">Silver Partner</CardTitle>
+                <CardTitle className="text-2xl">Equipment Grant Supporter </CardTitle>
                 <div className="text-3xl font-bold text-primary">$1,500 - $5,000</div>
-                <Badge className="mt-2 bg-primary/10 text-primary">Most Popular</Badge>
+                <Badge className="mt-2 bg-primary/10 text-primary">Alwyas needing shoes & rackets </Badge>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Target className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Logo on match clothing</span>
+                    <span className="text-sm">Support my next equipment requirements</span>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Users className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Website partnership feature</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Star className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Quarterly progress reports</span>
-                  </div>
+
                   <div className="flex items-center gap-3">
                     <Zap className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Tournament updates</span>
+                    <span className="text-sm">Follow my social media updates</span>
                   </div>
                 </div>
               </CardContent>
@@ -86,22 +76,18 @@ const SponsorshipSection = () => {
                 <div className="mx-auto mb-4 p-3 bg-yellow-100 dark:bg-yellow-900/30 rounded-full w-fit">
                   <Zap className="h-8 w-8 text-yellow-600" />
                 </div>
-                <CardTitle className="text-2xl">Gold Champion</CardTitle>
+                <CardTitle className="text-2xl">Training Grant Supporter</CardTitle>
                 <div className="text-3xl font-bold text-accent">$5,000+</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Target className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Primary logo placement</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Users className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Exclusive partnership content</span>
+                    <span className="text-sm">Support my training schedule for the next 6 months</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Star className="h-4 w-4 text-primary" />
-                    <span className="text-sm">Monthly communication</span>
+                    <span className="text-sm">Follow my social media updates</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Zap className="h-4 w-4 text-primary" />
@@ -122,7 +108,7 @@ const SponsorshipSection = () => {
               <Trophy className="h-12 w-12 text-accent mx-auto mb-6" />
               <h3 className="text-2xl font-bold mb-4">Ready to Partner With Me?</h3>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Your sponsorship directly contributes to my training, equipment, travel, and tournament 
+                Your grant support directly contributes to my training, equipment, travel, and tournament 
                 expenses while associating your brand with dedication, excellence, and emerging talent.
               </p>
               <div className="grid md:grid-cols-3 gap-4 text-center">
