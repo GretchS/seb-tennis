@@ -8,7 +8,7 @@ const GallerySection = () => {
     {
       url: "/lovable-uploads/96299667-dcdb-4cc7-8f64-bd43f89c2192.png",
       title: "Dynamic Tennis Action",
-      description: "Sebastian showcasing his powerful forehand technique"
+      description: "Sebastian on court"
     },
     {
       url: "/lovable-uploads/32eb9393-7acf-4e66-8750-4ee50e5fb496.png",

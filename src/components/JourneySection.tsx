@@ -76,11 +76,12 @@ const JourneySection = () => {
                       </div>
                     </div>
                     <div>
+                    
                       <div className="font-semibold text-accent">Fawkner Tennis Club</div>
-                      <div className="text-sm text-muted-foreground">
-                        In discussions for transition - Pathway to State Grade
+                    <div className="text-sm text-muted-foreground"> 
+                       In discussions for transition - Pathway to State Grade
                       </div>
-                    </div>
+                    </div> 
                   </div>
                 </div>
               </CardContent>
@@ -136,7 +137,7 @@ const JourneySection = () => {
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                "I offer sponsors authentic representation, dedicated professionalism, and the exciting 
+                "I offer grant providers authentic representation, dedicated professionalism, and the exciting 
                 opportunity to support an emerging talent with genuine potential. Your investment isn't 
                 just in my tennis career—it's in the values of hard work, resilience, and excellence 
                 that I bring to everything I do both on and off the court."
