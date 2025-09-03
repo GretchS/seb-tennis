@@ -36,7 +36,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Dedicated tennis athlete from New Zealand & Australia, seeking sponsorship 
+            Dedicated tennis athlete from New Zealand & Australia, seeking grant 
             opportunities to elevate my competitive tennis journey
           </p>
           
@@ -70,7 +70,7 @@ const HeroSection = () => {
               size="lg"
               onClick={() => scrollToSection('contact')}
             >
-              Sponsorship Opportunities
+              Partnership Opportunities
             </Button>
           </div>
         </div>

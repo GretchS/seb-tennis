@@ -40,10 +40,7 @@ const AboutSection = () => {
                     <span className="text-muted-foreground">Current WTN:</span>
                     <span className="font-semibold">25.5</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">TA Ranking:</span>
-                    <span className="font-semibold">#1,386 Nationally</span>
-                  </div>
+               
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Playing Style:</span>
                     <span className="font-semibold">All-court player</span>
