@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, MapPin, Heart, Zap } from "lucide-react";
 
-import sebastianInjuryRecovery from "/lovable-uploads/3c26a530-85d9-48b4-945e-b8238c4aebeb.png";
+import sebastianInjuryRecovery from "/lovable-uploads/60f27200-9553-4d90-bb6d-00f48b76141e.png";
 
 const AboutSection = () => {
   

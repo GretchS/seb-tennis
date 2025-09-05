@@ -6,7 +6,7 @@ const AchievementsSection = () => {
   const achievements2025 = [
     {
       tournament: "2025 Victoria Men's Pennant - Grade 3 Section 1 ",
-      result: "4th place",
+      result: "4th place (Team Event)",
       date: "August 23, 2025",
       highlights: ["Defeated Mohammad Benmin (UTR 9.19) 6-1, 6-1"]   
      },
