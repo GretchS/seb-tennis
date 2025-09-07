@@ -102,7 +102,7 @@ const AboutSection = () => {
                     coach <a href="https://rawtheory.com.au/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Giovanni Rollo</a>, along with my family.
                   </p>
                   <p>
-                    I'm seeking passionate sponsors who believe in supporting emerging talent 
+                    I'm seeking passionate grant providers who believe in supporting emerging talent 
                     and want to be part of my journey toward professional tennis excellence. 
                     Your partnership helps fuel my dedication to achieving greatness in tennis.
                   </p>
@@ -114,16 +114,20 @@ const AboutSection = () => {
               <CardContent className="p-0">
                 <div 
                   className="h-64 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${sebastianInjuryRecovery})` }}
+                  style={{ backgroundImage: `url(${sebastianTennisAction})` }}
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
                     <Heart className="h-5 w-5 text-accent" />
-                    Resilience & Recovery
+                    Coming up
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Overcoming an 8-week ankle injury taught me that true strength isn't just physical—it's 
-                    mental resilience, patience, and the determination to come back stronger than before.
+                    I'm looking to head to NZ for the next round of ITFs in Auckland and Christchurch.
+                    These tournaments are crucial for gaining international experience and improving my ranking.
+                    Your support can help make this next step in my tennis career possible.
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-4">
+                    Photo credit: <a href="https://www.instagram.com/tennis.photography_/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Tennis Photography</a>
                   </p>
                 </div>
               </CardContent>
