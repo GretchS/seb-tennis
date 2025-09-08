@@ -114,7 +114,7 @@ const AboutSection = () => {
               <CardContent className="p-0">
                 <div 
                   className="h-64 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${sebastianTennisAction})` }}
+                  style={{ backgroundImage: `url(${sebastianInjuryRecovery})` }}
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
