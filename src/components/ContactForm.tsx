@@ -148,7 +148,7 @@ const ContactForm = () => {
                       name="message"
                       value={formData.message}
                       onChange={handleInputChange}
-                      placeholder="Tell me about your sponsorship interest or any questions you have..."
+                      placeholder="Tell me about your grant interest or any questions you have..."
                       rows={5}
                       required
                     />
