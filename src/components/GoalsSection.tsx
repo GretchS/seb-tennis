@@ -141,7 +141,7 @@ const GoalsSection = () => {
               </blockquote>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://instagram.com/gretch_scott"
+                  href="https://instagram.com/sebba_tennis"
                   target="_blank"
                   rel="noopener noreferrer"
                 > 
