@@ -32,7 +32,7 @@ const ContactForm = () => {
     try {
       // For GitHub Pages, we'll use a service like Formspree or similar
       // This is a placeholder that would work with form submission services
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/mvgbllqw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

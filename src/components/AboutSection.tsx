@@ -126,9 +126,7 @@ const AboutSection = () => {
                     These tournaments are crucial for gaining international experience and improving my ranking.
                     Your support can help make this next step in my tennis career possible.
                   </p>
-                  <p className="text-sm text-muted-foreground mt-4">
-                    Photo credit: <a href="https://www.instagram.com/tennis.photography_/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Tennis Photography</a>
-                  </p>
+                 
                 </div>
               </CardContent>
             </Card>
