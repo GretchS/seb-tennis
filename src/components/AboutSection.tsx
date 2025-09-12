@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, MapPin, Heart, Zap } from "lucide-react";
 
-import sebastianInjuryRecovery from "/lovable-uploads/60f27200-9553-4d90-bb6d-00f48b76141e.png";
+import sebastianInjuryRecovery from "/lovable-uploads/c5ad2eec-223e-4aba-8565-52e943591422.png";
 
 const AboutSection = () => {
   
@@ -61,7 +61,7 @@ const AboutSection = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
-                    <span>1x Squad Training Session</span>
+                    <span>2x Squad Training Session</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-success rounded-full"></div>
