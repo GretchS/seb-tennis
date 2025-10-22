@@ -127,6 +127,7 @@ const AboutSection = () => {
                     These tournaments are crucial for gaining international experience and improving my ranking.
                     Your support can help make this next step in my tennis career possible.
                   </p>
+                  <div className="gfm-embed" data-url="https://www.gofundme.com/f/help-sebastian-chase-his-tennis-dream/widget/large?sharesheet=undefined&attribution_id=sl:cdb71ee6-0a2d-4db4-b190-ef8241b7eee7"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
                  
                 </div>
               </CardContent>
